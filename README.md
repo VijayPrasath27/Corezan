@@ -31,10 +31,22 @@ ng generate --help
 To build the project run:
 
 ```bash
-ng build
+npm run build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+This creates the production site in `dist/Corezanwebsite/browser/`.
+
+## Deploying to GoDaddy shared hosting
+
+For a domain whose document root is `public_html`:
+
+1. Run `npm run build`.
+2. In GoDaddy File Manager, open `public_html`.
+3. Upload the **contents** of `dist/Corezanwebsite/browser/` directly into `public_html` (including `index.html`, the JavaScript/CSS bundles, images, and `.htaccess`). Do not upload the `browser` folder itself as a nested folder.
+4. If `.htaccess` is not visible in File Manager, enable showing hidden files before uploading it.
+5. Visit the domain root and hard-refresh the browser.
+
+The `.htaccess` file sends Angular routes such as `/careers` back to `index.html`; without this Apache rewrite, opening or refreshing a nested route can return a GoDaddy 404. This build is configured for the domain root, not a subdirectory.
 
 ## Running unit tests
 

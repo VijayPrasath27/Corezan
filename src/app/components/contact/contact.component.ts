@@ -34,8 +34,8 @@ import { FormsModule } from '@angular/forms';
                 </div>
                 <div>
                   <div class="text-xs font-mono text-slate-400 uppercase">Direct Enterprise Line</div>
-                  <a href="tel:+919940397098" class="text-base font-bold text-white hover:text-[#00D2FF] transition-colors">
-                    +91 99403 97098
+                  <a href="tel:+919840397098" class="text-base font-bold text-white hover:text-[#00D2FF] transition-colors">
+                    +91 98403 97098
                   </a>
                 </div>
               </div>
@@ -49,8 +49,8 @@ import { FormsModule } from '@angular/forms';
                 </div>
                 <div>
                   <div class="text-xs font-mono text-slate-400 uppercase">Enterprise Inquiries</div>
-                  <a href="mailto:info@corezan.ai" class="text-base font-bold text-white hover:text-[#00D2FF] transition-colors">
-                    info@corezan.ai
+                  <a href="mailto:info@corezantech.com" class="text-base font-bold text-white hover:text-[#00D2FF] transition-colors">
+                    info@corezantech.com
                   </a>
                 </div>
               </div>
@@ -69,6 +69,24 @@ import { FormsModule } from '@angular/forms';
                   </div>
                 </div>
               </div>
+
+              <a
+                href="https://wa.me/919840397098?text=I%20would%20like%20to%20discuss%20my%20project%20requirements%20with%20Corezan%20Technologies."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-start gap-4 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00D2FF]"
+              >
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 text-[#00D2FF] mt-0.5">
+                  <svg class="w-5 h-5 fill-none stroke-current stroke-[1.75]" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 3.5a8.5 8.5 0 0 0-7.2 13.1l-1 3.9 4.1-1A8.5 8.5 0 1 0 12 3.5Z" />
+                    <path d="M8.2 8.5c.5-.5 1.2-.5 1.7 0l1 1-1.4 1.7a7.1 7.1 0 0 0 3.3 3.3l1.7-1.4 1 1c.5.5.5 1.2 0 1.7l-.6.6c-.5.5-1.3.7-2 .4a10.7 10.7 0 0 1-5.7-5.7c-.3-.7-.1-1.5.4-2Z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="text-xs font-mono text-slate-400 uppercase">Quick WhatsApp Chat</div>
+                  <div class="text-base font-bold text-white">Start a Conversation</div>
+                </div>
+              </a>
             </div>
 
             <!-- Availability Badge -->
